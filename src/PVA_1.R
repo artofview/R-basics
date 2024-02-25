@@ -1,6 +1,3 @@
-# install.packages("languageserver")
-# install.packages("readxl")
-
 library(readxl)
 
 # Daten importierten
