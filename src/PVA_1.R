@@ -1,7 +1,7 @@
 library(readxl)
 
 # Daten importierten
-meineDaten <- read_excel("C:\\privat\\Repos\\R\\WIR110T1104_Hotelgaeste_StadtZuerich.xlsx", sheet = 4, range = cell_rows(9:380))
+meineDaten <- read_excel("C:\\privat\\Repos\\R-basics\\src\\WIR110T1104_Hotelgaeste_StadtZuerich.xlsx", sheet = 4, range = cell_rows(9:380))
 
 View(meineDaten)
 
